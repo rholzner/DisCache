@@ -1,6 +1,4 @@
-﻿using EPiServer.Framework.Cache;
-using Microsoft.AspNetCore.OutputCaching;
-using Microsoft.Extensions.Caching.Distributed;
+﻿using Microsoft.AspNetCore.OutputCaching;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 

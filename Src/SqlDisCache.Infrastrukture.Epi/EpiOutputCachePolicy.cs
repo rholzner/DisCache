@@ -7,7 +7,6 @@ namespace SqlDisCache.Infrastrukture.Epi;
 
 public class EpiOutputCachePolicy : IOutputCachePolicy
 {
-
     public ValueTask CacheRequestAsync(OutputCacheContext context, CancellationToken cancellation)
     {
         var pageRouteHelper = context.HttpContext.RequestServices.GetService<IPageRouteHelper>();
